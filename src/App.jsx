@@ -1,11 +1,16 @@
-import './App.css'
+import React from 'react'
+import Navbar from './Components/Navbar/Navbar'
+import Header from './Components/Header/Header'
+import Stats from './Components/Stats/Stats'
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="bg-[#050A30] min-h-screen">
+      <Navbar />
+      <Header />
+      <Stats />
+    </div>
+
   )
 }
 
